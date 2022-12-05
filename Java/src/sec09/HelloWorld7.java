@@ -1,6 +1,6 @@
-package sec06;
+package sec09;
 
-public class HelloWorld2 {
+public class HelloWorld7 {
 
 	public static void main(String[] args) {
 		System.out.println("Hello World!");

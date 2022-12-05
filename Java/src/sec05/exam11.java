@@ -3,9 +3,16 @@ package sec05;
 public class exam11 {
 
 	public static void main(String[] args) {
-		int score = 85;
-		char grade = (score > 90) ? 'A' : (  (score > 80) ? 'B' : 'C');
-		System.out.println(score + "점은" + grade + "등급입니다.");
+	int score = 93;
+	
+	if(score>=90) {
+		System.out.println("점수가 90보다 큽니다.");
+		System.out.println("등급은 A입니다.");
+	}
+	
+	if(score<90)
+		System.out.println("점수가 90보다 작습니다.");
+		System.out.println("등급은 B입니다.");
 	}
 
 }
