@@ -9,6 +9,7 @@ public class test02 {
 		Scanner input = new Scanner(System.in);
 		int number1;
 		int number2;
+		int number3;
 	
 		System.out.println("---입력---");
 		System.out.println("첫번째 숫자를 입력하시오");
@@ -16,9 +17,9 @@ public class test02 {
 
 		System.out.println("두번째 숫자를 입력하시오");
 		number2 = input.nextInt();
-		number2 = number2 + number1;
-		
-		System.out.println("결과: " + number2);
+
+		number3 = number2 + number1;
+		System.out.println("결과: " + number3);
 	
 	}
 
