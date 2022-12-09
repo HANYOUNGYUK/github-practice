@@ -1,4 +1,4 @@
-package 별찍기;
+package stars;
 
 public class test02 {
 

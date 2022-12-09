@@ -1,4 +1,4 @@
-package 계산기;
+package calculator;
 
 import java.util.Scanner;
 
