@@ -5,32 +5,33 @@ import java.util.Calendar;
 public class exam01 {
 	public static void main(String[] args) {
 		
-		Week today = null;
+		String week;
+		String today;
 		
 		Calendar cal = Calendar.getInstance();
-		int week = cal.get(Calendar.DAY_OF_WEEK);
+		String week = cal.get(Calendar.DAY_OF_WEEK);
 		
 		switch(week) {
 		case 1 :
-			today =week.SUNDAY; break;
+			today = week.SUNDAY; break;
 			
 		case 2 :
-			today = Week.MONDAY; break;
+			today = week.MONDAY; break;
 			
 		case 3 :
-			today = Week.TUESDAY; break;
+			today = week.TUESDAY; break;
 			
 		case 4 :
-			today = Week.WEDNESDAY; break;
+			today = week.WEDNESDAY; break;
 			
 		case 5 :
-			today = Week.THURSDAY; break;
+			today = week.THURSDAY; break;
 			
 		case 6 :
-			today = Week.FRIDAY; break;
+			today = week.FRIDAY; break;
 			
 		case 7 :
-			today = Week.SATURDAY; break;
+			today = week.SATURDAY; break;
 		}
 		
 		System.out.println("오늘 요일: " + today);
