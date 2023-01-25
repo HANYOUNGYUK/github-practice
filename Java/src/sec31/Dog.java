@@ -1,10 +1,14 @@
 package sec31;
 
-public class Dog {
+public class Dog extends Animal {
 
-	public static void main(String[] args) {
-		
-		System.out.println("Hello World!");
+	public Dog() {
+		this.kind = "포유류";
 	}
+	
+	public void sound() {
+		System.out.println("멍멍");
+	}
+	
 
 }
